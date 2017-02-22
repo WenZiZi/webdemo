@@ -1,0 +1,117 @@
+
+body {
+    width:750px; 
+	margin:0 auto;
+    font-size: 12px;
+    padding: 0;
+	color:#444;	
+}
+.logo,.input{
+    background: url("../images/login-all.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.logo {
+    background-position: -730px 0;
+    height: 55px;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 185px;
+	float:left;
+}
+.title {
+	height: 24px;
+    margin-left: 10px;
+    margin-top: 18px;
+	padding-top:10px;
+	padding-left:10px;
+	line-height:20px;
+	font-size:18px;
+	font-family:"微软雅黑";
+	color:#999;
+	font-weight:bold;
+	letter-spacing:3px;
+    width: 300px;
+	float:left;
+	border-left:solid 1px #ccc;
+}
+.msg {
+	clear:both;
+	height: 150px;
+	line-height:150px;
+	font-size:24px;
+	font-family:"微软雅黑";
+	color:#999;
+	font-weight:bold;
+	letter-spacing:3px;
+	text-align:center;
+}
+.input {
+    background-color: #FFFFFF;
+	font-family:"微软雅黑";
+    background-position: -1480px -395px;
+    border: 1px solid #E7E7E7;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 26px;
+}
+
+.input.user{
+	background-position: -1480px -490px;
+}
+.input.pwd{
+	background-position: -1480px -440px;
+}
+
+.input.realname{
+	background-position: -1480px -440px;
+}
+.input.username{
+	background-position: -1480px -440px;
+}
+.input.email{
+	background-position: -1480px -440px;
+}
+
+.input:hover {
+    border-color: #0F6AAE;
+}
+.input:focus, input.pwd:focus {
+    border-color: #FF9900;
+}
+.menu {
+	float:right;
+	text-align:center;
+	width:150px;
+	margin-top:20px;
+	height:45px;
+}
+.menu a,.btn{
+	display:inline-block;
+	margin:0 3px;
+	padding:0 10px;
+	background-image:none;
+	background-color:#2592E0;
+	font-family:"微软雅黑";
+	font-size:14px;
+	letter-spacing:2px;
+	font-weight:bold;
+	color:#FFF;
+	line-height:30px;
+	height:30px;
+	text-decoration:none;
+	border:none;
+	text-align:center;
+	text-indent: 0;
+}
+.menu a:hover,.btn:hover{
+	background-color:#42A7F0;
+}
+
+.top_hr {
+	height:62px;
+	border-bottom:solid 1px #CCC;
+}
+
+td { font-size:12px;}
+

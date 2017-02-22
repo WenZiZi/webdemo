@@ -1,0 +1,37 @@
+body {margin:0; padding:0; background:#C6C8CC url(../images/aside-right-shadow.jpg) repeat-y left;}
+ul { list-style:none; padding:0; margin:0;}
+ul li a { width:210px; background:url(../images/aside-hover-on.png) no-repeat 0 -66px; display:block; height:33px; line-height:33px; font-size:13px; padding-left:33px;  color:#333; text-decoration:none; outline:none;}
+ul li a span { display:inline-block; width:23px; height:22px; vertical-align:-7px; margin-right:10px; background:url(../images/btn_icon.gif) no-repeat scroll;}
+ul li a:hover { background-position:0 0; color:#2581E3}
+
+ul li a.on { background-position:0 -33px; color:#2581E3; font-weight:bold;}
+
+ul li a .ico_0 { background-position:-205px 0px;}
+ul li a:hover .ico_0,ul li a.on .ico_0 { background-position:-228px 0px;}
+
+ul li a .ico_1 { background-position:-205px -22px;}
+ul li a:hover .ico_1,ul li a.on .ico_1 { background-position:-228px -22px;}
+
+ul li a .ico_2 { background-position:-205px -44px;}
+ul li a:hover .ico_2,ul li a.on .ico_2 { background-position:-228px -44px;}
+
+ul li a .ico_3 { background-position:-205px -66px;}
+ul li a:hover .ico_3,ul li a.on .ico_3 { background-position:-228px -66px;}
+
+ul li a .ico_4 { background-position:-205px -89px;}
+ul li a:hover .ico_4,ul li a.on .ico_4 { background-position:-228px -89px;}
+
+ul li a .ico_5 { background-position:-205px -113px;}
+ul li a:hover .ico_5,ul li a.on .ico_5 { background-position:-228px -113px;}
+
+ul li a .ico_6 { background-position:-205px -132px;}
+ul li a:hover .ico_6,ul li a.on .ico_6 { background-position:-228px -132px;}
+
+ul li a .ico_7 { background-position:-205px -153px;}
+ul li a:hover .ico_7,ul li a.on .ico_7 { background-position:-228px -153px;}
+
+
+ul li a .ico_8 { background-position:-205px -177px;}
+ul li a:hover .ico_8,ul li a.on .ico_8 { background-position:-228px -177px;}
+
+
