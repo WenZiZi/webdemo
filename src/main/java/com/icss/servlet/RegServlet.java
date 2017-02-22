@@ -8,8 +8,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.icss.dao.DAOSupport;
-import com.icss.dao.UserInfoDAO;
 import com.icss.po.UserInfoPO;
 import com.icss.service.UserInfoService;
 

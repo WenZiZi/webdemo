@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class ThymeleafAppUtil {
+
 	 private static TemplateEngine templateEngine;
 
 	    /**
@@ -24,20 +25,10 @@ public class ThymeleafAppUtil {
 	        templateEngine.setTemplateResolver(templateResolver);
 	    }
 
-    /**
-	 * 返回视图
-	 * 返回视图
-	 * @param template
-	 * @param ctx
-	 * @param response
-	 * @throws IOException
-     */
-	    public static void render(String template, WebContext ctx , HttpServletResponse response) throws IOException {
+	    public static void render(String template, WebContext ctx, HttpServletResponse response) throws IOException {
 	    	//更改字符编码，防止前台中文乱码
 			response.setCharacterEncoding("utf-8");
 			response.setContentType("text/html;charset=utf-8");
-			templateEngine.process(template, ctx, response.getWriter());
+	    	templateEngine.process(template, ctx, response.getWriter());
 	    }
-
-
 }

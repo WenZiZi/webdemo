@@ -10,7 +10,6 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   
-
   <servlet>
     <servlet-name>FindAllUserServlet</servlet-name>
     <servlet-class>com.icss.servlet.FindAllUserServlet</servlet-class>
@@ -35,7 +34,6 @@
     <servlet-name>UploadFormServlet</servlet-name>
     <servlet-class>com.icss.servlet.UploadFormServlet</servlet-class>
   </servlet>
-
   <servlet>
     <servlet-name>RegServlet</servlet-name>
     <servlet-class>com.icss.servlet.RegServlet</servlet-class>
@@ -93,12 +91,10 @@
     <servlet-name>UploadFormServlet</servlet-name>
     <url-pattern>/uploadForm</url-pattern>
   </servlet-mapping>
-
   <servlet-mapping>
     <servlet-name>RegServlet</servlet-name>
     <url-pattern>/register</url-pattern>
   </servlet-mapping>
- 
   <servlet-mapping>
     <servlet-name>ResetPwdServlet</servlet-name>
     <url-pattern>/restPwd</url-pattern>
