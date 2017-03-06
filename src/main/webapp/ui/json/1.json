@@ -1,0 +1,8 @@
+{
+	"total":3,
+	"rows":[
+		{"id":"1","time":"时间time","title":"法律title"},
+		{"id":"2","time":"时间1time","title":"法律1title"},
+		{"id":"3","time":"时间2time","title":"法律2title"}
+	]
+} 

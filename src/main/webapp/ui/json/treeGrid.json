@@ -1,0 +1,16 @@
+[
+	{
+		"id":1,
+		"name":"系统管理",
+		"iconCls":"icon-save",
+		"date":"2017.1.10",
+		"children":[
+			{
+				"id":2,
+				"name":"系统管理",
+				"iconCls":"icon-save",
+				"date":"2017.1.10"
+			}
+		]
+	}
+]
